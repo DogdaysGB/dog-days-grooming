@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dog Days Grooming & Boarding | Portland, Tennessee</title>
+<meta name="description" content="Dog Days Grooming & Boarding in Portland, Tennessee. Full-service dog grooming and overnight boarding. Call or text for appointments, availability and pricing.">
+<style>
+:root{
+  --pink:#e9a0b8; --pink-dark:#c96f91; --cream:#fffaf7;
+  --ink:#30272b; --muted:#6f6268; --green:#667b68; --white:#fff;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.nav{position:sticky;top:0;z-index:10;background:rgba(255,250,247,.96);backdrop-filter:blur(10px);border-bottom:1px solid #f0dce3}
+.nav-inner{max-width:1150px;margin:auto;padding:15px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:800;font-size:1.15rem;letter-spacing:.3px}
+.brand span{color:var(--pink-dark)}
+.navlinks{display:flex;gap:22px;font-size:.95rem;color:#51464b}
+.navlinks a:hover{color:var(--pink-dark)}
+.hero{max-width:1150px;margin:auto;padding:58px 24px 35px;display:grid;grid-template-columns:1.02fr .98fr;gap:44px;align-items:center}
+.kicker{color:var(--pink-dark);font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:.8rem}
+h1{font-size:clamp(2.8rem,6vw,5.4rem);line-height:.98;margin:12px 0 22px;letter-spacing:-2px}
+.hero p{font-size:1.12rem;color:var(--muted);max-width:560px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{display:inline-block;padding:13px 20px;border-radius:999px;font-weight:800;border:2px solid var(--pink-dark)}
+.btn.primary{background:var(--pink-dark);color:white}
+.btn.secondary{background:white}
+.hero-photo{position:relative}
+.hero-photo img{width:100%;height:560px;object-fit:cover;border-radius:34px;box-shadow:0 22px 55px rgba(61,37,45,.16)}
+.badge{position:absolute;left:-18px;bottom:25px;background:white;padding:15px 18px;border-radius:18px;box-shadow:0 12px 30px rgba(0,0,0,.12);font-weight:800}
+section{padding:78px 24px}
+.section-inner{max-width:1150px;margin:auto}
+.center{text-align:center}
+h2{font-size:clamp(2rem,4vw,3.2rem);margin:8px 0 12px;letter-spacing:-1px}
+.lead{max-width:680px;margin:0 auto 35px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:white;border:1px solid #f0dce3;border-radius:24px;padding:28px;box-shadow:0 10px 30px rgba(75,45,54,.06)}
+.card h3{margin:0 0 8px;font-size:1.35rem}
+.icon{font-size:2rem}
+.alt{background:#f9edf1}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.gallery img{width:100%;height:260px;object-fit:cover;border-radius:20px;display:block}
+.gallery img.tall{height:360px}
+.gallery .wide{grid-column:span 2}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.info-box{background:white;border-radius:24px;padding:28px;border:1px solid #f0dce3}
+.hours{display:grid;grid-template-columns:auto 1fr;gap:7px 20px}
+.hours strong{white-space:nowrap}
+.cta{background:var(--green);color:white;border-radius:34px;padding:55px 30px;text-align:center}
+.cta p{opacity:.9}
+footer{padding:35px 24px;text-align:center;color:var(--muted);font-size:.9rem}
+.stars{color:var(--pink-dark);letter-spacing:2px;font-size:1.05rem}.review-card p{font-size:1.15rem;font-style:italic;margin:12px 0}.review-card strong{font-size:.9rem;color:var(--muted)}.review-note{margin:25px auto 0;color:var(--muted);font-size:.85rem;max-width:720px}
+@media(max-width:800px){
+ .nav-inner{align-items:flex-start}.navlinks{display:none}
+ .hero{grid-template-columns:1fr;padding-top:35px}.hero-photo img{height:430px}.badge{left:10px}
+ .cards,.info{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}
+ .gallery img,.gallery img.tall{height:240px}.gallery .wide{grid-column:span 2}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="nav-inner">
+<a class="brand" href="index.html"><span>🐾</span> Dog Days Grooming & Boarding</a>
+<div class="navlinks">
+<a href="index.html">Home</a><a href="grooming.html">Grooming</a><a href="boarding.html">Boarding</a><a href="gallery.html">Gallery</a><a href="#reviews">Reviews</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+</div></div></nav>
+
+<header class="hero">
+  <div>
+    <div class="kicker">Portland, Tennessee</div>
+    <h1>Where your best friend gets the best care.</h1>
+    <p>Professional dog grooming and overnight boarding with a whole lot of love. We treat every dog like family.</p>
+    <div class="buttons">
+      <a class="btn primary" href="tel:6153239788">Call or Text 615-323-9788</a>
+      <a class="btn secondary" href="#gallery">See Our Work</a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="images/dog-1.jpeg" alt="Happy freshly groomed dog at Dog Days Grooming & Boarding">
+    <div class="badge">Professional grooming • Loving care</div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="section-inner center">
+    <div class="kicker">What we do</div>
+    <h2>Grooming & Boarding</h2>
+    <p class="lead">From a fresh haircut to a comfortable overnight stay, Dog Days is here to help keep your dog happy, clean and cared for.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">✂️🐶</div>
+        <h3>Full-Service Dog Grooming</h3>
+        <p>Professional grooming tailored to your dog's coat, needs and style. Call or text us for appointments and pricing.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏡🐾</div>
+        <h3>Overnight Boarding</h3>
+        <p>Need a safe place for your dog while you're away? We offer overnight boarding and loving care.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="gallery">
+  <div class="section-inner center">
+    <div class="kicker">A few of our happy clients</div>
+    <h2>Fresh, fluffy & feeling fabulous</h2>
+    <p class="lead">Take a look at some of the dogs who have visited Dog Days.</p>
+    <div class="gallery">
+      <img class="wide tall" src="images/dog-3.jpeg" alt="Grooming before and after">
+      <img src="images/dog-4.jpeg" alt="Freshly groomed puppy">
+      <img src="images/dog-5.jpeg" alt="Dog grooming transformation">
+      <img src="images/dog-6.jpeg" alt="Grooming transformation">
+      <img class="wide" src="images/dog-7.jpeg" alt="Happy German Shepherd after grooming">
+      <img src="images/dog-8.jpeg" alt="Grooming before and after">
+      <img src="images/dog-9.jpeg" alt="Grooming before and after">
+      <img class="wide" src="images/dog-10.jpeg" alt="Happy dogs at Dog Days">
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="section-inner center">
+    <div class="kicker">What our customers say</div>
+    <h2>Loved by local dog parents</h2>
+    <p class="lead">Dog Days is rated <strong>4.7 stars from 84 reviews</strong>. Here are a few words customers have shared about their experience with us.</p>
+    <div class="cards">
+      <div class="card review-card">
+        <div class="stars">★★★★★</div>
+        <p>“The best grooming spot in Portland.”</p>
+        <strong>— Recent customer review</strong>
+      </div>
+      <div class="card review-card">
+        <div class="stars">★★★★★</div>
+        <p>“Our boy loves going up there.”</p>
+        <strong>— Recent customer review</strong>
+      </div>
+      <div class="card review-card">
+        <div class="stars">★★★★★</div>
+        <p>“The kindest.”</p>
+        <strong>— Recent customer review</strong>
+      </div>
+    </div>
+    <p class="review-note">Reviews shown are from publicly available customer feedback. See our Google listing for the full collection of reviews.</p>
+  </div>
+</section>
+
+<section id="hours">
+  <div class="section-inner info">
+    <div class="info-box">
+      <div class="kicker">Come see us</div>
+      <h2>Hours</h2>
+      <div class="hours">
+        <strong>Monday–Friday</strong><span>7:30 AM until closing</span>
+        <strong>Saturday</strong><span>By appointment only</span>
+        <strong>Sunday</strong><span>Closed</span>
+      </div>
+      <p style="color:var(--muted);margin-top:20px"><strong>Walk-in nail trims:</strong> Monday–Friday, 9:00 AM–2:00 PM. No appointment needed.</p>
+    </div>
+    <div class="info-box">
+      <div class="kicker">Visit us</div>
+      <h2>Find Dog Days</h2>
+      <p><strong>Dog Days Grooming & Boarding</strong><br>1105 S. Broadway, Suite C<br>Portland, TN 37148</p>
+      <p>For appointments, availability and pricing, please call or text us.</p>
+      <a class="btn primary" href="tel:6153239788">615-323-9788</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-inner">
+    <div class="cta">
+      <div class="kicker" style="color:#ffd4df">Ready for a fresh look?</div>
+      <h2>Let's get your pup on the schedule!</h2>
+      <p>Call or text Dog Days Grooming & Boarding for appointments, availability and pricing.</p>
+      <a class="btn" style="background:white;color:var(--green);border-color:white" href="tel:6153239788">Call or Text 615-323-9788</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Dog Days Grooming & Boarding • Portland, Tennessee
+</footer>
+</body>
+</html>
